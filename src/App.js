@@ -4,6 +4,7 @@ import Basic1 from "./components/Basic1";
 import Basic2 from "./components/Basic2";
 import BasicUseEffect from "./components/BasicUseEffect";
 import TimerContainer from "./components/TimerContainer";
+import ApiFetch from "./components/ApiFetch";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         {/* <Basic1 name="Today" /> */}
         {/* <Basic2 name="Hooks" /> */}
         {/* <BasicUseEffect /> */}
-        <TimerContainer />
+        {/* <TimerContainer /> */}
+        <ApiFetch />
       </header>
     </div>
   );
